@@ -1,9 +1,15 @@
 import React from 'react';
+import styled from 'styled-components';
+
+const ContentColor = styled.div`
+    background-color: black;
+    color: white;
+`;
 
 const MainContent = (props) => {
     return (
         <div>
-            <p>{props.description}</p>
+            <ContentColor>{props.description}</ContentColor>
         </div>
     )
 }
