@@ -3,6 +3,7 @@ import axios from 'axios'
 import "./App.css";
 import AllContent from "./Components/All";
 import styled from 'styled-components'
+import Button from './Buttons';
 
 const Style = styled.div`
   background-color: black;
@@ -33,6 +34,10 @@ function App() {
     <Style className="App">
     <TitleStyle>NASA Video!</TitleStyle>
     <AllContent data = {data}/>
+    <Button type="primary">Space</Button>
+      <Button type="success">Stars</Button>
+      <Button type="danger">Planets</Button>
+      <Button type="warning">Beyond</Button>
     </Style>
   );
 }
