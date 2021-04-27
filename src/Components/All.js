@@ -8,7 +8,7 @@ const AllContent = (props) => {
 
     return (
         <div>
-            <ReactPlayer url = "https://www.youtube.com/embed/ubBzcSD8G8k?rel=0" top width = '100%' alt = 'NASA video'/>
+            <ReactPlayer controls url = "https://www.youtube.com/embed/ubBzcSD8G8k?rel=0" top width = '100%' alt = 'NASA video'/>
             <NasaHeader header = {header}/>
             <MainContent description = {description}/>
         </div>

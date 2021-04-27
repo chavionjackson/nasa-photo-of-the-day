@@ -19,7 +19,6 @@ function App() {
 
   return (
     <div className="App">
-    <h1>Hello Mr. Jackson!</h1>
     <AllContent data = {data}/>
     </div>
   );
