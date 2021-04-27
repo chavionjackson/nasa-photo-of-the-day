@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from "react";
-import ReactPlayer from 'react-player'
 import axios from 'axios'
 import "./App.css";
 import AllContent from "./Components/All";
@@ -21,7 +20,6 @@ function App() {
   return (
     <div className="App">
     <h1>Hello Mr. Jackson!</h1>
-    <ReactPlayer url = "https://www.youtube.com/embed/ubBzcSD8G8k?rel=0"/>
     <AllContent data = {data}/>
     </div>
   );
