@@ -8,10 +8,6 @@ const Button = styled.button`
   border-radius: 3px;
   color: black;
 
-  ${props => (props.type === "primary" ? `background: white` : null)}
-  ${props => (props.type === "success" ? `background: white` : null)}
-  ${props => (props.type === "danger" ? `background: white` : null)}
-  ${props => (props.type === "warning" ? `background: white` : null)}
 `;
 
 export default Button;

@@ -4,6 +4,7 @@ import "./App.css";
 import AllContent from "./Components/All";
 import styled from 'styled-components'
 import Button from './Buttons';
+import ReactPlayer from 'react-player'
 
 const Style = styled.div`
   background-color: black;
@@ -33,6 +34,7 @@ function App() {
   return (
     <Style className="App">
     <TitleStyle>NASA Video!</TitleStyle>
+    <ReactPlayer url = "https://www.youtube.com/embed/ubBzcSD8G8k?rel=0" top width = '100%' alt = 'NASA video'/>
     <AllContent data = {data}/>
     <Button type="primary">Space</Button>
       <Button type="success">Stars</Button>
