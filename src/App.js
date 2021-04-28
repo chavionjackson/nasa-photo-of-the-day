@@ -8,7 +8,7 @@ import ReactPlayer from 'react-player'
 
 const Style = styled.div`
   background-color: black;
-  color: white;
+  color: #ba1e68;
   padding-bottom: 2rem;
 `;
 
@@ -36,10 +36,10 @@ function App() {
     <TitleStyle>NASA Video!</TitleStyle>
     <ReactPlayer url = "https://www.youtube.com/embed/ubBzcSD8G8k?rel=0" top width = '100%' alt = 'NASA video'/>
     <AllContent data = {data}/>
-    <Button type="primary">Space</Button>
-      <Button type="success">Stars</Button>
-      <Button type="danger">Planets</Button>
-      <Button type="warning">Beyond</Button>
+    <Button>Space</Button>
+      <Button>Stars</Button>
+      <Button>Planets</Button>
+      <Button>Beyond</Button>
     </Style>
   );
 }
