@@ -7,14 +7,18 @@ import Button from './Buttons';
 import ReactPlayer from 'react-player'
 
 const Style = styled.div`
-  background-color: black;
-  color: #ba1e68;
-  padding-bottom: 2rem;
+  background-color:rgb(0,0,0);
+  background-image:url(http://www.zingerbugimages.com/backgrounds/starry_sky_glitter_background_seamless.gif);
+  background-position:top left;
+  background-repeat:repeat;
+  background-attachment:fixed;  
+  color: #7649fe;
+  padding-bottom: 2vw;
 `;
 
 const TitleStyle = styled.div`
-  font-size: 4rem;
-  padding: 3rem;
+  font-size: 4vw;
+  padding: 3vw;
 `;
 
 function App() {
@@ -37,9 +41,9 @@ function App() {
     <ReactPlayer url = "https://www.youtube.com/embed/ubBzcSD8G8k?rel=0" top width = '100%' alt = 'NASA video'/>
     <AllContent data = {data}/>
     <Button>Space</Button>
-      <Button>Stars</Button>
-      <Button>Planets</Button>
-      <Button>Beyond</Button>
+    <Button>Stars</Button>
+    <Button>Planets</Button>
+    <Button>Beyond</Button>
     </Style>
   );
 }
